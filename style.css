@@ -362,6 +362,63 @@
     margin-top: 5rem;
 }
 
+
+/* 2nd Page Starts About Us */
+ 
+
+.about-overlay{
+    /* margin-top: 7rem; */
+}
+
+.about-overlay::before {
+    content: '';
+    position: absolute;
+    margin-top: 0px;
+    left: 0;
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    z-index: 0;
+    pointer-events: none;
+    object-fit: cover;
+    margin-top: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-h1 {
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+   margin-top: 10rem;
+   justify-self: center;
+   
+    
+}
+ .lar{
+    margin-top: 19rem;
+    
+ }
+
+ .a{
+    margin-top: 7rem;
+ }
+
+
+ /*  */
+ .form{
+    margin-top: 7rem;
+ }
+ 
+
 @media (min-width:767px) {
     .navbar-collapse {
     /* background-color: red; */
@@ -441,6 +498,46 @@
     height: 400px;
  }
 
+
+ /* 2nd page starts */
+
+ 
+.about-overlay::before {
+    content: '';
+    position: absolute;
+    margin-top: 0px;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    z-index: 0;
+    pointer-events: none;
+    object-fit: cover;
+    margin-top: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-h1{
+    justify-self: center;
+   margin-top: 12rem;
+
+}
+
+
+ .lar{
+    margin-top: 27rem;
+    
+ }
+
+ .a{
+    margin-top: 7rem;
+ }
+
 }
 
 
@@ -507,5 +604,42 @@
     background-color: linear-gradient(rgba(0,0,0.5),rgba(0,0,0,0.5));
     z-index: 1;
 }
+
+ 
+.about-overlay::before {
+    content: '';
+    position: absolute;
+    margin-top: 0px;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    z-index: 0;
+    pointer-events: none;
+    object-fit: cover;
+    margin-top: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-h1{
+    justify-self: center;
+   margin-top: 15rem;
+
+}
+
+
+ .lar{
+    margin-top: 33rem;
+    
+ }
+
+ .a{
+    margin-top: 7rem;
+ }
 
 }
